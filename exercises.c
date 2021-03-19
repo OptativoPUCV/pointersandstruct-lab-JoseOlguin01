@@ -59,10 +59,6 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-   Persona p;
-   fgets(p.nombre,30,stdin);
-   fgets(p.rut,30,stdin);
-   scanf("%d", &p.edad);
 
    return NULL;
 }
